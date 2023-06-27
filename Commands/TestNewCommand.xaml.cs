@@ -18,11 +18,22 @@ namespace Commands
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class TestNewCommand : Window
     {
-        public MainWindow()
+        public TestNewCommand()
         {
             InitializeComponent();
+        }
+
+        private void NewCommand(object sender, ExecutedRoutedEventArgs e)
+        {
+            MessageBox.Show("New command triggered by " + e.Source.ToString());
+        }
+
+        private void cmdDoCommand_Click(object sender, RoutedEventArgs e)
+        {
+            this.CommandBindings[0].Command.Execute(null);
+            // ApplicationCommands.New.Execute(null, (Button)sender);
         }
     }
 }
