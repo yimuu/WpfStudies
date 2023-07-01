@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlTemplateBrowser", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlTemplates", "ControlTemplates\ControlTemplates.csproj", "{70CEB847-4D9A-42BA-BF15-BCF4C969494A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomControls", "CustomControls\CustomControls.csproj", "{319A7790-F0D3-42C4-B3B2-41B90835D4D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomControls", "CustomControls\CustomControls.csproj", "{319A7790-F0D3-42C4-B3B2-41B90835D4D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomControlsClient", "CustomControlsClient\CustomControlsClient.csproj", "{65ADD2E4-6299-4B3C-B602-4B164E3188E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomControlsClient", "CustomControlsClient\CustomControlsClient.csproj", "{65ADD2E4-6299-4B3C-B602-4B164E3188E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBinding", "DataBinding\DataBinding.csproj", "{48A5EF9C-3D5A-472F-996B-3BA8836CEC8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{65ADD2E4-6299-4B3C-B602-4B164E3188E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65ADD2E4-6299-4B3C-B602-4B164E3188E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65ADD2E4-6299-4B3C-B602-4B164E3188E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48A5EF9C-3D5A-472F-996B-3BA8836CEC8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48A5EF9C-3D5A-472F-996B-3BA8836CEC8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48A5EF9C-3D5A-472F-996B-3BA8836CEC8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48A5EF9C-3D5A-472F-996B-3BA8836CEC8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
