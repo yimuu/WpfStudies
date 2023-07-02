@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomControls", "CustomCon
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomControlsClient", "CustomControlsClient\CustomControlsClient.csproj", "{65ADD2E4-6299-4B3C-B602-4B164E3188E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBinding", "DataBinding\DataBinding.csproj", "{48A5EF9C-3D5A-472F-996B-3BA8836CEC8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataBinding", "DataBinding\DataBinding.csproj", "{48A5EF9C-3D5A-472F-996B-3BA8836CEC8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortVisualization", "SortVisualization\SortVisualization.csproj", "{7FF9C486-A899-4DAF-8111-7E68DADA6DED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{48A5EF9C-3D5A-472F-996B-3BA8836CEC8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48A5EF9C-3D5A-472F-996B-3BA8836CEC8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48A5EF9C-3D5A-472F-996B-3BA8836CEC8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FF9C486-A899-4DAF-8111-7E68DADA6DED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FF9C486-A899-4DAF-8111-7E68DADA6DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FF9C486-A899-4DAF-8111-7E68DADA6DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FF9C486-A899-4DAF-8111-7E68DADA6DED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
